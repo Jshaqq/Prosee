@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./love letter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>I Choose You</strong>
+                        <p>
+                            In a world full of fleeting moments and uncertain paths, I choose you. Again and again. Without doubt. Not just on the days when youre soft and smiling, but even on the days when youre distant, tired, or unsure.
+                        </br></br>I choose you when the conversations flow like music and when the silence feels heavier than usual. I choose you when youre full of light and even more when you feel like yourre fading. I choose every version of you, the loud laughter, the quiet sadness, the stubborn pride, the always trying your best and the tender love you give in your own way.
+                        </br></br>Sometimes I feel confused when your warmth feels far away, when your affection quiets down, and I cant quite tell whats on your heart. In those moments, I wonder if youre slipping away or just carrying something silently. But even in my uncertainty, I choose to stay. Because I never stopped choosing you. I never stopped wanting to understand you.
+                        </br></br>More than anything, I want to be your safe place. Not just a name in your phone or a voice in your ear but a home in your heart. A place where you can fall apart without fear, speak without filtering, feel without shrinking. I want to be where you go when life feels too loud, too cruel, or too heavy. A place where you are always enough.
+                        </br></br>Loving you isnt a perfect story. Its not always easy, but its real. And real love is what I want. I want the late night talks, the sleepy good mornings, the stubborn disagreements followed by soft apologies. I want your chaos, your calm, your heart even if it doesnt always know how to show love the way I do or the way i want.
+                        </br></br>Because my heart doesnt want anyone else. It beats a little softer when youre near, aches a little longer when youre far, and always find its way back to you.
+                        </br></br>So no matter where life pulls us or what we go through, I choose you.
+                        </br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+<div class="hearts">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+  </div>
+</body>
+</html>
